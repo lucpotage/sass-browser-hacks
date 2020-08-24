@@ -1,0 +1,15 @@
+@use "index" as *;
+
+.a {
+  color: yellow;
+
+  @include firefox {
+    color: red;
+  }
+}
+
+.b {
+  @include ie('8') {
+    color: blue;
+  }
+}
