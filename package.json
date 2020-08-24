@@ -1,8 +1,8 @@
 {
-  "name": "@lucpotage/sass-browser-hacks",
+  "name": "sass-browser-hacks",
   "version": "1.0.0",
   "title": "Sass Browser Hacks",
-  "description": "Browser hacks from browserhacks.com for Dart Sass",
+  "description": "Browser hacks from browserhacks.com for Dart Sass ✨",
   "main": "index.scss",
   "scripts": {
     "test": "npx sass test.scss test.css"
