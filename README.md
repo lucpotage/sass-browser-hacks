@@ -1,4 +1,4 @@
-# Sass Browser Hacks
+# Sass Browser Mixins
 
 Browser hacks from [browserhacks.com](https://browserhacks.com/) for [Dart Sass](https://sass-lang.com/dart-sass).
 
@@ -6,12 +6,12 @@ Browser hacks from [browserhacks.com](https://browserhacks.com/) for [Dart Sass]
 
 Install the dependency:
 ```
-yarn add @lucpotage/css-hacks --dev
+yarn add sass-browser-mixins --dev
 ```
 
 Add the library:
 ```scss
-@use '<path>/css-hacks' as *;
+@use '<path>/sass-browser-mixins' as *;
 ```
 
 This library includes three types of CSS hacks:
@@ -33,7 +33,7 @@ Supported hacks:
 
 ## Examples
 
-Here is how to target Firefox:
+To target Firefox:
 
 <table>
 <tr>
@@ -70,7 +70,7 @@ _:-moz-tree-row(hover), .a {
 </tr>
 </table>
 
-Another example with IE 7:
+To target IE 7:
 
 <table>
 <tr>

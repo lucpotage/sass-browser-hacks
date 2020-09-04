@@ -1,11 +1,11 @@
 {
-  "name": "sass-browser-hacks",
+  "name": "sass-browser-mixins",
   "version": "1.0.0",
-  "title": "Sass Browser Hacks",
-  "description": "Browser hacks from browserhacks.com for Dart Sass ✨",
+  "title": "Sass Browser Mixins",
+  "description": "Browser hacks for Dart Sass ✨",
   "main": "index.scss",
   "scripts": {
-    "test": "npx sass test.scss test.css"
+    "test": "sass test.scss test.css"
   },
   "keywords": [
     "sass",
@@ -18,13 +18,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucpotage/sass-browser-hacks.git"
+    "url": "git+https://github.com/lucpotage/sass-browser-mixins.git"
   },
   "bugs": {
-    "url": "https://github.com/lucpotage/sass-browser-hacks/issues"
+    "url": "https://github.com/lucpotage/sass-browser-mixins/issues"
   },
-  "homepage": "https://github.com/lucpotage/sass-browser-hacks#readme",
-  "devDependencies": {
-    "sass": "^1.26.10"
-  }
+  "homepage": "https://github.com/lucpotage/sass-browser-mixins#readme",
+  "devDependencies": {}
 }
